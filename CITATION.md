@@ -9,4 +9,4 @@ If you make use of the SARAS-ESAD 2020 data, please cite the following reference
 }
 ```
 
-[🔗 Source](https://saras-esad.grand-challenge.org/Home/)
+[🔗 Source](https://saras-esad.grand-challenge.org/people/)
