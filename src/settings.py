@@ -64,7 +64,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = {
 
 PAPER: Optional[str] = "https://arxiv.org/abs/2006.07164"
 CITATION_URL: Optional[str] = None
-ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "(SARAS) Smart Autonomous Robotic Assistant Surgeon EU consortium"
+ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "Smart Autonomous Robotic Assistant Surgeon (SARAS) EU consortium"
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = "http://saras-project.eu/"
 TAGS: List[str] = None
 
