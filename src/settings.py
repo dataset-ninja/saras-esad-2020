@@ -37,7 +37,29 @@ DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = {
 }
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
-CLASS2COLOR: Optional[Dict[str, List[str]]] = None
+CLASS2COLOR: Optional[Dict[str, List[str]]] = {
+    "CuttingMesocolon":[128, 128, 128],
+    "PullingVasDeferens":[255, 165, 0],
+    "ClippingVasDeferens":[255, 192, 203],
+    "CuttingVasDeferens":[210,105,30],
+    "ClippingTissue":[139,69,19],
+    "PullingSeminalVesicle":[112,128,144],
+    "ClippingSeminalVesicle":[240,230,140],
+    "CuttingSeminalVesicle":[176,196,222],
+    "SuckingBlood":[218,165,32],
+    "SuckingSmoke":[255, 0, 0],
+    "PullingTissue":[0, 255, 0],
+    "CuttingTissue":[255, 255, 0],
+    "BaggingProstate":[255, 0, 255],
+    "BladderNeckDissection":[0, 255, 255],
+    "BladderAnastomosis":[128, 0, 0],
+    "PullingProstate":[0, 128, 0],
+    "ClippingBladderNeck":[0, 0, 128],
+    "CuttingThread":[128, 128, 0],
+    "UrethraDissection":[128, 0, 128],
+    "CuttingProstate":[0, 128, 128],
+    "PullingBladderNeck":[192, 192, 192],
+}
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
 PAPER: Optional[str] = "https://arxiv.org/abs/2006.07164"
