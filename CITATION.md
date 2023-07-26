@@ -1,12 +1,14 @@
 If you make use of the SARAS-ESAD 2020 data, please cite the following reference:
 
-``` bibtex 
-@misc{SARAS-ESAD 2020,
-	author="Prof. Fabio Cuzzolin, Dr Vivek Singh Bawa, Dr Inna Skarga-Bandurova, Dr Gurkirt Singh",
-	title="SARAS endoscopic vision challenge for surgeon action detection 2020",
-	year={2020},
-	url="https://saras-esad.grand-challenge.org/Home/"
+```bibtex
+@misc{bawa2020esad,
+      title={ESAD: Endoscopic Surgeon Action Detection Dataset}, 
+      author={Vivek Singh Bawa and Gurkirt Singh and Francis KapingA and Inna Skarga-Bandurova and Alice Leporini and Carmela Landolfo and Armando Stabile and Francesco Setti and Riccardo Muradore and Elettra Oleari and Fabio Cuzzolin},
+      year={2020},
+      eprint={2006.07164},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
 
-[🔗 Source](https://saras-esad.grand-challenge.org/people/)
+[🔗 Source](https://arxiv.org/abs/2006.07164)
