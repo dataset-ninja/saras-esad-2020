@@ -11,4 +11,4 @@ If you make use of the SARAS-ESAD 2020 data, please cite the following reference
 }
 ```
 
-[🔗 Source](https://arxiv.org/abs/2006.07164)
+[Source](https://arxiv.org/abs/2006.07164)

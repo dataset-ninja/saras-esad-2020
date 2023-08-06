@@ -14,7 +14,7 @@ from dataset_tools.templates import (
 # * Before uploading to instance #
 ##################################
 PROJECT_NAME: str = "SARAS-ESAD 2020"
-PROJECT_NAME_FULL: str = "SARAS endoscopic vision challenge for surgeon action detection 2020"
+PROJECT_NAME_FULL: str = "SARAS Endoscopic Vision Challenge for Surgeon Action Detection 2020"
 
 ##################################
 # * After uploading to instance ##
@@ -51,14 +51,14 @@ DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = {
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
 CLASS2COLOR: Optional[Dict[str, List[str]]] = {
-    "CuttingMesocolon": [128, 128, 128],
+    "CuttingMesocolon": [0, 0, 255],
     "PullingVasDeferens": [255, 165, 0],
     "ClippingVasDeferens": [255, 192, 203],
     "CuttingVasDeferens": [210, 105, 30],
     "ClippingTissue": [139, 69, 19],
-    "PullingSeminalVesicle": [112, 128, 144],
+    "PullingSeminalVesicle": [127, 255, 0],
     "ClippingSeminalVesicle": [240, 230, 140],
-    "CuttingSeminalVesicle": [176, 196, 222],
+    "CuttingSeminalVesicle": [127, 255, 212],
     "SuckingBlood": [218, 165, 32],
     "SuckingSmoke": [255, 0, 0],
     "PullingTissue": [0, 255, 0],
@@ -71,7 +71,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = {
     "CuttingThread": [128, 128, 0],
     "UrethraDissection": [128, 0, 128],
     "CuttingProstate": [0, 128, 128],
-    "PullingBladderNeck": [192, 192, 192],
+    "PullingBladderNeck": [75, 0, 130],
 }
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
@@ -93,7 +93,7 @@ AUTHORS: Optional[List[str]] = [
 
 ORGANIZATION_NAME: Optional[
     Union[str, List[str]]
-] = "Smart Autonomous Robotic Assistant Surgeon (SARAS) EU consortium"
+] = "Smart Autonomous Robotic Assistant Surgeon (SARAS) EU Consortium"
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = "http://saras-project.eu/"
 
 SLYTAGSPLIT: Optional[Dict[str, List[str]]] = None
