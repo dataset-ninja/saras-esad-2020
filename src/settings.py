@@ -21,7 +21,9 @@ PROJECT_NAME_FULL: str = "SARAS Endoscopic Vision Challenge for Surgeon Action D
 ##################################
 LICENSE: License = License.CC_BY_NC_SA_3_0()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Medical(), Industry.Robotics()]
-CATEGORY: Category = Category.Medical(benchmark=True, extra=Category.Robotics())
+CATEGORY: Category = Category.Medical(
+    benchmark=True, extra=Category.Robotics(), sensitive_content=True
+)
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
