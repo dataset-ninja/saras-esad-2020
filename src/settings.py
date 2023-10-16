@@ -20,7 +20,7 @@ HIDE_DATASET = False  # set False when 100% sure about repo quality
 ##################################
 # * After uploading to instance ##
 ##################################
-LICENSE: License = License.CC_BY_NC_SA_3_0()
+LICENSE: License = License.CC_BY_NC_SA_3_0(source_url="https://saras-esad.grand-challenge.org/download/")
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Medical(), Industry.Robotics()]
 CATEGORY: Category = Category.Medical(
     benchmark=True, extra=Category.Robotics(), sensitive_content=True
