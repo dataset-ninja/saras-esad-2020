@@ -79,6 +79,8 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = {
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
 PAPER: Optional[str] = "https://arxiv.org/abs/2006.07164"
+REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"GitHub":"https://github.com/Viveksbawa/SARAS-ESAD-baseline"}
+
 CITATION_URL: Optional[str] = "https://arxiv.org/abs/2006.07164"
 AUTHORS: Optional[List[str]] = [
     "Vivek Singh Bawa",
@@ -93,6 +95,7 @@ AUTHORS: Optional[List[str]] = [
     "Elettra Oleari",
     "Fabio Cuzzolin",
 ]
+AUTHORS_CONTACTS: Optional[List[str]] = ["vsingh@brookes.ac.uk"]
 
 ORGANIZATION_NAME: Optional[
     Union[str, List[str]]
@@ -140,8 +143,10 @@ def get_settings():
     settings["download_original_url"] = DOWNLOAD_ORIGINAL_URL
     settings["class2color"] = CLASS2COLOR
     settings["paper"] = PAPER
+    settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
