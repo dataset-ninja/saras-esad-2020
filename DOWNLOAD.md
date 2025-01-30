@@ -1,6 +1,6 @@
 Dataset **SARAS-ESAD 2020** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://www.dropbox.com/scl/fi/n26lu5r8tsok1psul8pcw/saras-esad-2020-DatasetNinja.tar?rlkey=i1x7on1mt522gce7i2ncmkzbr&dl=1)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzExMjRfU0FSQVMtRVNBRCAyMDIwL3NhcmFzLWVzYWQtMjAyMC1EYXRhc2V0TmluamEudGFyIiwgInNpZyI6ICJEZkJtZ0w1ZDhSSGltQ1VJMkNNRnVXNWQxc0RkaG1oOG02Vm9ZYjdObjlNPSJ9)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
